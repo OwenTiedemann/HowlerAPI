@@ -62,5 +62,3 @@ async def get_roles_information():
                 break
 
     return jsonify(guild_roles)
-
-
