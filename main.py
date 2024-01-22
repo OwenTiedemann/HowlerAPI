@@ -64,5 +64,3 @@ async def get_roles_information():
     return jsonify(guild_roles)
 
 
-if __name__ == '__main__':
-    app.run(port=5000)
